@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-detect_stack.py - mechanical stack detection for the sdlc-pipeline plugin.
+detect_stack.py - mechanical stack detection for the flutter-sdlc-pipeline plugin.
 
 WHAT IT IS FOR
 --------------

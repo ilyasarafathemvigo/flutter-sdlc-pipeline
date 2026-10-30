@@ -1,4 +1,4 @@
-# sdlc-pipeline
+# flutter-sdlc-pipeline
 
 An autonomous SDLC orchestrator plugin for Claude Code, Claude Cowork, and Cursor. One command — `/pipeline` — takes a feature or bug from raw request to shipped PR through planning, review gauntlets, TDD execution, testing gates, security review, docs, and ship.
 
@@ -17,7 +17,7 @@ The orchestrator never writes production code itself. It classifies your request
 
 ## Prerequisites
 
-This plugin dispatches skills from three other dependencies. All are **required** — `/pipeline` halts at preflight if any is missing. Install them **before** installing sdlc-pipeline:
+This plugin dispatches skills from three other dependencies. All are **required** — `/pipeline` halts at preflight if any is missing. Install them **before** installing flutter-sdlc-pipeline:
 
 ### Python 3
 
@@ -74,7 +74,7 @@ If your team distributes plugins centrally, some may already be pre-installed �
    ```
 2. Install the plugin:
    ```
-   /plugin install sdlc-pipeline@sdlc-pipeline-dev
+   /plugin install flutter-sdlc-pipeline@flutter-sdlc-pipeline-dev
    ```
 3. Restart Claude Code (or run `/reload-plugins` during development).
 4. Verify: type `/` and confirm `/pipeline` appears.
@@ -84,7 +84,7 @@ If your team distributes plugins centrally, some may already be pre-installed �
 1. Open the **Customize** menu in the left sidebar, then the **Plugins** tab.
 2. In **Personal plugins**, click **+** → **Add marketplace** → **Add from a repository**.
 3. Paste: `https://github.com/ilyasarafathemvigo/flutter-sdlc-pipeline`
-4. Once the marketplace syncs, click **Install** on **sdlc-pipeline**.
+4. Once the marketplace syncs, click **Install** on **flutter-sdlc-pipeline**.
 5. Start a new conversation for the plugin to take effect.
 
 Note: hooks and sub-agents run in Cowork and Claude Code; in plain chat only skills are available.
@@ -103,7 +103,7 @@ Alternatively, clone the repo and copy `agents/` and `commands/` into your proje
 
 Marketplace installs don't auto-pull new commits. To get the latest version:
 
-- **Claude Code:** `/plugin marketplace update sdlc-pipeline-dev`
+- **Claude Code:** `/plugin marketplace update flutter-sdlc-pipeline-dev`
 - **Cowork/Desktop:** Customize → Plugins → find the marketplace → ⋯ menu → **Update**, then start a new session.
 
 ## Usage

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-PreToolUse hook - context budget guard for the sdlc-pipeline.
+PreToolUse hook - context budget guard for the flutter-sdlc-pipeline.
 
 Purpose
 -------
@@ -82,9 +82,9 @@ def agent_of(payload) -> str:
     harmless fallbacks in case the name changes.
 
     Values seen: "general-purpose" (built-in). Custom plugin agents are expected as
-    "sdlc-pipeline:eng-reviewer", but the exact form is unconfirmed - so ROLE_READ_ALLOWLIST
+    "flutter-sdlc-pipeline:eng-reviewer", but the exact form is unconfirmed - so ROLE_READ_ALLOWLIST
     is matched by substring rather than equality, which tolerates "eng-reviewer",
-    "sdlc-pipeline:eng-reviewer" and "sdlc-pipeline_eng-reviewer" alike.
+    "flutter-sdlc-pipeline:eng-reviewer" and "flutter-sdlc-pipeline_eng-reviewer" alike.
     """
     return str(
         payload.get("agent_type")

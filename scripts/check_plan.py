@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-check_plan.py - stack-agnostic plan consistency linter for the sdlc-pipeline plugin.
+check_plan.py - stack-agnostic plan consistency linter for the flutter-sdlc-pipeline plugin.
 
 WHAT IT IS FOR
 --------------
