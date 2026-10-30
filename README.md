@@ -70,7 +70,7 @@ If your team distributes plugins centrally, some may already be pre-installed �
 
 1. Add this repo as a marketplace:
    ```
-   /plugin marketplace add nithinemvigo/sdlc-pipeline
+   /plugin marketplace add ilyasarafathemvigo/flutter-sdlc-pipeline
    ```
 2. Install the plugin:
    ```
@@ -83,7 +83,7 @@ If your team distributes plugins centrally, some may already be pre-installed �
 
 1. Open the **Customize** menu in the left sidebar, then the **Plugins** tab.
 2. In **Personal plugins**, click **+** → **Add marketplace** → **Add from a repository**.
-3. Paste: `https://github.com/nithinemvigo/sdlc-pipeline`
+3. Paste: `https://github.com/ilyasarafathemvigo/flutter-sdlc-pipeline`
 4. Once the marketplace syncs, click **Install** on **sdlc-pipeline**.
 5. Start a new conversation for the plugin to take effect.
 
@@ -93,7 +93,7 @@ Note: hooks and sub-agents run in Cowork and Claude Code; in plain chat only ski
 
 1. Open Cursor **Settings** → **Plugins** (or **Rules & Memories → Plugins**, depending on version).
 2. Click **Add Plugin** → **From Git repository**.
-3. Paste: `https://github.com/nithinemvigo/sdlc-pipeline`
+3. Paste: `https://github.com/ilyasarafathemvigo/flutter-sdlc-pipeline`
 4. Cursor reads `.cursor-plugin/plugin.json` and installs the plugin.
 5. Reload the Cursor window (`Cmd/Ctrl+Shift+P` → "Reload Window").
 
